@@ -22,7 +22,7 @@ spec:
         run: hello
     spec:
       containers:
-      - image: nginx:1.13.8
+      - image: nginx:1-alpine-perl
         imagePullPolicy: IfNotPresent
         name: hello
         ports:
